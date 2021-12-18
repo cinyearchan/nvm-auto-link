@@ -1,6 +1,7 @@
 if [ -e /usr/local/bin/node ]; then
   rm /usr/local/bin/node
   rm /usr/local/bin/npm
+  rm /usr/local/bin/npx
 fi
 
 #ln -s $(which node) /usr/local/bin/node
