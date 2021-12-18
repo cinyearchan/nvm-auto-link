@@ -1,6 +1,12 @@
 if [ -e /usr/local/bin/node ]; then
   rm /usr/local/bin/node
+fi
+
+if [ -e /usr/local/bin/npm ]; then
   rm /usr/local/bin/npm
+fi
+
+if [ -e /usr/local/bin/npx ]; then
   rm /usr/local/bin/npx
 fi
 
